@@ -1,13 +1,21 @@
-from flask import Flask, send_from_directory
+from flask import Flask, send_from_directory, render_template_string
 
-app = Flask(__name__, static_folder="static", static_url_path="/static")
+app = Flask(__name__, static_folder="../static", template_folder="../")
 
-@app.route('/')
+@app.route("/")
 def home():
-    return send_from_directory(".", "index.html")
+    return send_from_directory("../", "index.html")
 
-@app.route('/<path:path>')
-def static_proxy(path):
-    return send_from_directory(".", path)
+@app.route("/static/<path:path>")
+def static_files(path):
+    return send_from_directory("../static", path)
 
-handler = app  # مهم لـ Vercel
+@app.route("/api/score/<int:score>")
+def score(score):
+    if score >= 1000:
+        return {"status": "win", "message": "Congratulations! You saved the galaxy!"}
+    else:
+        return {"status": "keep going", "message": f"Your score: {score}"}
+
+if __name__ == "__main__":
+    app.run(debug=True)
