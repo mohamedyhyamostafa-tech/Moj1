@@ -55,7 +55,7 @@ export default function Page() {
             <a href="https://alzaeem1.gt.tc/rule%20stud"><i className="fa-solid fa-gear"></i> Student values</a>
             <a href="https://kop-sigma.vercel.app/"><i className="fa-solid fa-briefcase"></i> snake_game</a>
             <a href="https://alzaeem1.gt.tc/student"><i className="fa-solid fa-brain"></i> Student page</a>
-            <a href="https://script.google.com/macros/s/AKfycbyuA91JpL64BF4A8uytTLVcMrL7SlNSDQXN3xC-J-28t-Ed9Z_qhO6TGDdk425reg/exec"><i className="fa-solid fa-code"></i> Registration page</a>
+            <a href="https://script.google.com/macros/s/AKfycbwCmkaf8_L4Ul8dTrF0VFvx5YW03i_5xe2QQqVic2iXdkVS7HxK7J6WSs8zZdsOIQ/exec"><i className="fa-solid fa-code"></i> Registration page</a>
             <a href="https://alzaeem1.gt.tc/file"><i className="fa-solid fa-shield-halved"></i> Student files</a>
             <a href="https://alzaeem1.gt.tc/search1_hub"><i className="fa-solid fa-users"></i> Google and Microsoft services</a>
             <a href="https://alzaeem1.gt.tc/search_hub"><i className="fa-solid fa-headset"></i> Software definitions</a>
