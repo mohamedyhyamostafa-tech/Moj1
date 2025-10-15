@@ -50,7 +50,7 @@ export default function Page() {
             <button onClick={searchPage}>Search</button>
           </div>
           <div className="links">
-            <a href="https://alzaeemtc1.vercel.app/"><i className="fa-solid fa-house"></i> Home</a>
+            <a href="https://mohamedyhyamostafa-tech.github.io/-/"><i className="fa-solid fa-house"></i> Home TC</a>
             <a href="https://alzaeem1.gt.tc/rule%20unive"><i className="fa-solid fa-circle-info"></i> University of Computers and Information</a>
             <a href="https://alzaeem1.gt.tc/rule%20stud"><i className="fa-solid fa-gear"></i> Student values</a>
             <a href="https://kop-sigma.vercel.app/"><i className="fa-solid fa-briefcase"></i> snake_game</a>
